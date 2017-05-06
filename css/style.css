@@ -3,7 +3,7 @@ body a{
 }
 .my_blog{
 	width: 1024px;
-	margin:200px auto;
+	margin:100px auto;
 }
 .top,{
 	width:1024px;
@@ -51,7 +51,7 @@ body a{
 }
 .mian_list02{
 	height: 297px;
-	margin-bottom: 124px;
+	margin-bottom: 100px;
 }
 .mian_list02 .list02{
 	position: absolute;
@@ -64,24 +64,12 @@ body a{
 	padding:70px 26px;
 	display: block;
 	color:#020202;
+	text-align: center;
 }
 .mian_list02 .photo span{
 	height:62px;
 	line-height: 63px;
 	font-size: 26px;
-}
-@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) { 
-    .mian_list02 .photo{
-        background-image: -webkit-linear-gradient(left, #ddc6c3, #463f3e 25%, #ddc6c3 50%, #463f3e 75%, #ddc6c3);
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-        -webkit-background-size: 200% 100%;
-        -webkit-animation: masked-animation 4s infinite linear;
-    }
-}
-@-webkit-keyframes masked-animation {
-    0%  { background-position: 0 0;}
-    100% { background-position: -100% 0;}
 }
 .list03{
 	position: absolute;
@@ -94,14 +82,63 @@ body a{
 	padding:30px 26px;
 	display: block;
 	color:#020202;
+	text-align: center;
 }
 .mian_list02 .message span{
 	height:62px;
 	line-height: 63px;
 	font-size: 26px;
 }
+.mian_list03 .list04{
+	width:302px;
+	height:204px;
+	margin-left:166px;
+}
+.mian_list03 .diary{
+	width:100%;
+	padding:30px 26px;
+	display: block;
+	color:#020202;
+	text-align: center;
+	box-sizing: border-box;	
+}
+.mian_list03 .diary span{
+	height:62px;
+	line-height: 63px;
+	font-size: 26px;
+}
+.list05{
+	width: 126px;
+	height: 126px;
+	float: right;
+	margin-right:84px;
+	margin-top:20px;
+}
+.mian_list04{
+	height:138px;
+	float: left;
+	margin-top:50px;
+}
+.mian_list04 .list06{
+	width:286px;
+	height: 136px;
+	margin-left: 80px;
+}
+.mian_list04 .thoughts{
+	width: 261px;
+	height: 136px;
+	padding:10px;
+	float: right;
+	color:#020202;
+	box-sizing: border-box;	
+}
+.mian_list04 .thoughts span{
+	height:62px;
+	line-height: 63px;
+	font-size: 26px;
+}
 @media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) { 
-    .mian_list02 .message{
+    .mian_list02 .message,.mian_list03 .diary,.mian_list02 .photo,.mian_list04 .thoughts{
         background-image: -webkit-linear-gradient(left, #ddc6c3, #463f3e 25%, #ddc6c3 50%, #463f3e 75%, #ddc6c3);
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
@@ -113,3 +150,4 @@ body a{
     0%  { background-position: 0 0;}
     100% { background-position: -100% 0;}
 }
+
